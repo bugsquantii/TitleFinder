@@ -9,11 +9,6 @@ class RequestBody(BaseModel):
     url: str
 
 
-@app.get("/")
-def index():
-    return {"message": "Hello world!"}
-
-
 @app.post("/titlefinder")
 def get_title(request: RequestBody):
 

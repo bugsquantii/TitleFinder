@@ -14,8 +14,6 @@ class TitleFinder:
         #Remove domain extension
         domain = domain.split('.')[0]
 
-        print(domain)
-
         #Check domain and call the right function
         match domain:
             #case 'youtube' or 'youtu':
